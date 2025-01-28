@@ -1,0 +1,13 @@
+Equipment used :
+                 Float Switch, 3d printed water pump, electromechanical solenoid valve, alarm lamp Mitsubishi FX3U plc, Ac to Dc power supply.
+
+Working :
+         
+1) An XIC Switch triggers the process and starts the scan.
+
+2) As soon as the process is started, the solenoid valve is closed, and water starts to flow inside the tank(a Bottle in this case).
+
+3) The pump Supplies water until the float switch is triggered, when the float switch opens the contact the pump is de-energized and stops pumping water further.
+
+4) At this point, the alarm light blinks for 500 milliseconds until the float switch returns to its original normal position, indicating that the water tank is below the High limit and the drain valve drains the water below this level.
+
